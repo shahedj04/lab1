@@ -18,7 +18,7 @@ We set up the data frame.
 ```{r setup-tibble}
 usernames <- c("wilsonamy", " Shahed", "Liz", "username 3", "username 4") #Extend if necessary
 nums <- c(18, 6, 12, NA, NA) #Extend if necessary
-colours <- c("powderblue", "blue", "pink", "colour 2", "colour 4") #Extend if necessary
+colours <- c("powderblue", "blue", "red", "colour 2", "colour 4") #Extend if necessary
 hobbies <- c("Hiking", "Art", "Dance", "Hobby 3", "Hobby 4") #Extend if necessary
 
 team_data <- tibble(username = usernames, die_roll = nums, colour = colours,
