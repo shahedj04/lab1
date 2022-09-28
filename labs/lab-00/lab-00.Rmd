@@ -30,9 +30,9 @@ We now work on visualising our data.
 
 ```{r bar-plot}
 # Uncomment the three lines below
-# p1 <- ggplot(team_data, aes(x = username, y = die_roll)) +
-#   geom_col(fill = team_data$colour)
-# p1
+p1 <- ggplot(team_data, aes(x = username, y = die_roll)) +
+  geom_col(fill = team_data$colour)
+p1
 ```
 
 ### Exercise 19
